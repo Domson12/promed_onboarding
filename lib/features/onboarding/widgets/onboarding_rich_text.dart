@@ -20,6 +20,7 @@ class OnboardingRichText extends StatelessWidget {
       fontWeight: FontWeight.bold,
     );
     return RichText(
+      textAlign: TextAlign.center,
       text: TextSpan(
         style: const TextStyle(
           fontSize: 24,
